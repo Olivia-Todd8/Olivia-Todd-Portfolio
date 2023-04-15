@@ -1,9 +1,8 @@
 /* typography */
 
 * {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
-    /* box-sizing: content-box;  */
 }
 
 
@@ -21,7 +20,6 @@ h3 {
     color: rgb(77, 77, 77);
     font-weight: lighter;
 }
-
 
 /* flex element for nav */
 
@@ -115,7 +113,6 @@ button {
     margin-bottom: 100px;
 }
 
-
 /* pseudo class selectors */
 
 a:link {
@@ -152,7 +149,6 @@ a {
 .heading1 {
     margin-left: 250px;
     font-size: 200%;
-
 }
 
 .heading2 {
@@ -208,7 +204,6 @@ table {
     padding-bottom: 100px;
 }
 
-
 /*  table element */
 
 table {
@@ -255,8 +250,6 @@ td,th {
 }
 
 /* flexbox element  */
-
-
 
 .tileWidth {
     width: 35%;
@@ -375,7 +368,7 @@ figcaption{
       }
     }
    
-    
+    /* fluid grid  */
 
 @media screen and (min-width: 701px){
    .flexTiles {
